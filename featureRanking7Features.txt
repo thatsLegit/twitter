@@ -1,0 +1,38 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     Search_2501_estonia_tweets
+Instances:    2511
+Attributes:   8
+              Number_of_followers
+              Number_of_friend
+              Total_of_tweets
+              Contain_Picture
+              Contain_hashtag
+              langage
+              verified_account
+              @@class@@
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 8 @@class@@):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.277767   1 Number_of_followers
+ 0.113764   2 Number_of_friend
+ 0.08264    3 Total_of_tweets
+ 0.049773   7 verified_account
+ 0.010387   5 Contain_hashtag
+ 0.002363   6 langage
+ 0.000915   4 Contain_Picture
+
+Selected attributes: 1,2,3,7,5,6,4 : 7
+

@@ -1,0 +1,47 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Search_2500_estonia_tweets
+Instances:    2506
+Attributes:   6
+              Number_of_followers
+              Number_of_friend
+              Total_of_tweets
+              Contain_Picture
+              Contain_hashtag
+              @@class@@
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2218               88.5076 %
+Incorrectly Classified Instances       288               11.4924 %
+Kappa statistic                          0.7068
+Mean absolute error                      0.1211
+Root mean squared error                  0.3315
+Relative absolute error                 29.2892 %
+Root relative squared error             72.9009 %
+Total Number of Instances             2506     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,714    0,045    0,869      0,714    0,784      0,713    0,909     0,810     0
+                 0,955    0,286    0,890      0,955    0,922      0,713    0,909     0,957     1
+Weighted Avg.    0,885    0,215    0,884      0,885    0,882      0,713    0,909     0,914     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  523  209 |    a = 0
+   79 1695 |    b = 1
+
