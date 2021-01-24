@@ -7,10 +7,10 @@ import sys
 
 
 #"another" data_analytics_2019 ok
-consumer_key = "KcVnz49uNPuKQFm3RQCIzFx38"
-consumer_secret = "As9sHrwKarBXizcxM7D3VTRjcSs18l4YXGkHB3ExHslmZurdIi"
-access_token = "726020015187726336-FstmBYu9eSTK1cZIWUJ7GoA4plHex0p"
-access_secret = "5JWiCXrOG4GfvNXowu0ps39AfsDClJEHi87XLPzyAw2Gv"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_secret = ""
 
 os.chdir('C:/Users/pitch/PycharmProjects/Twitter')
 
